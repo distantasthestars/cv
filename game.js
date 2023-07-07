@@ -25,7 +25,7 @@ function nextSequence() {
 
 function soundAnimation (color) {
     $(".btn." + color).fadeOut(80).fadeIn(80);
-    var audio = new Audio("sounds/" + color + ".mp3");
+    var audio = new Audio("cv/" + color + ".mp3");
     audio.play();
 }
 
